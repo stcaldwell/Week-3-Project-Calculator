@@ -1,0 +1,102 @@
+body {
+  width: 100vw;
+  height: 100vw;
+
+  /*Cool background color changing animation I am trying out*/
+  /*-webkit-animation:bgChange 3s 3s alternate infinite;
+    transition: all 3s ease;*/
+}
+
+/*@-webkit-keyframes bgChange {
+  0% {
+     background: lightblue;;
+  }
+  50% {
+      background: #399cb9;
+  }
+  100% {
+        background: blue;
+  }
+}*/
+
+/*---------------Main Styling for the calculator---------------*/
+.calc {
+  width: 42vw;
+  height: 45vw;
+  margin: 0 30vw 30vw 30vw;
+  border: 1px solid;
+  border-collapse: collapse;
+  background-color: #61B34F;
+  color: white;
+  font: lighter 20pt 'sans-serif';
+  text-align: center;
+}
+
+.input-button {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+input {
+  background-color: #61B34F;
+  color: white;
+  border: none;
+  padding: 48px;
+  font-size: 20pt;
+}
+
+input[type="button"] {
+  outline: none;
+}
+
+/*Equals and Clear hover styling*/
+
+#equals:hover {
+  background-color: #82C276;
+}
+
+#clear:hover {
+  background-color: #82C276;
+}
+
+/*---------------Operators styling---------------*/
+
+#divide {
+  background-color: #82C276;
+  border-color: white;
+  color: black;
+}
+
+#divide:hover {
+  color: white;
+}
+
+#multiply {
+  background-color: #82C276;
+  border-color: white;
+  color: black;
+}
+
+#multiply:hover {
+  color: white;
+}
+
+#subtract {
+  background-color: #82C276;
+  border-color: white;
+  color: black;
+}
+
+#subtract:hover {
+  color: white;
+}
+
+#add {
+  background-color: #82C276;
+  border-color: white;
+  color: black;
+}
+
+#add:hover {
+  color: white;
+}

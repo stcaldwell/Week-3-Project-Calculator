@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Calculator Build!</title>
+
+    <link rel="stylesheet" href="main.css">
+
+  </head>
+
+  <body>
+
+    <table class='calc'>
+
+    <form name='calc'>
+
+      <tr>
+
+        <td class='input-button' id="clear">
+          <input id="clear" type="button" name="C" value="C" onclick="inputClear()"></td>
+
+        <td colspan="3"><input name="display"></td>
+
+      </tr>
+
+      <tr>
+
+        <td class='input-button' id="seven">
+          <input type="button" name="7" value="7" onclick="inputSeven()"></td>
+
+        <td class='input-button' id="eight">
+          <input type="button" name="8" value="8" onclick="inputEight()"></td>
+
+        <td class='input-button' id="nine">
+          <input type="button" name="9" value="9" onclick="inputNine()"></td>
+
+        <td class='input-button operator' id="divide">
+          <input id="divide" type="button" name="/" value="/" onclick="inputDivide()"></td>
+
+      </tr>
+
+      <tr>
+
+        <td class='input-button' id="four">
+          <input type="button" name="4" value="4" onclick="inputFour()"></td>
+
+        <td class='input-button' id="five">
+          <input type="button" name="5" value="5" onclick="inputFive()"></td>
+
+        <td class='input-button' id="six">
+          <input type="button" name="6" value="6" onclick="inputSix()"></td>
+
+        <td class='input-button operator' id="multiply">
+          <input id="multiply" type="button" name="X" value="*" onclick="inputMultiply()"></td>
+
+      </tr>
+
+      <tr>
+
+        <td class='input-button' id="one">
+          <input type="button" name="1" value="1" onclick="inputOne()"></td>
+
+        <td class='input-button' id="two">
+          <input type="button" name="2" value="2" onclick="inputTwo()"></td>
+
+        <td class='input-button' id="three">
+          <input type="button" name="3" value="3" onclick="inputThree()"></td>
+
+        <td class='input-button operator' id="subtract">
+          <input id="subtract" type="button" name="-" value="-" onclick="inputSubtract()"></td>
+      </tr>
+
+      <tr>
+
+        <td class='input-button' id="zero">
+          <input type="button" name="0" value="0" onclick="inputZero()"></td>
+
+        <td class='input-button' id="decimal">
+          <input type="button" name="." value="." onclick="inputDecimal()"></td>
+
+        <td class='input-button' id="equals">
+          <input id="equals" type="button" name="=" value="=" onclick="doEvaluate()"></td>
+
+        <td class='input-button operator' id='add'>
+          <input id="add" type="button" name="+" value="+" onclick="inputAddition()"></td>
+
+      </tr>
+
+      </form>
+
+    </table>
+
+
+    <script src="main.js"></script>
+
+  </body>
+
+</html>
